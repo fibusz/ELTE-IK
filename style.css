@@ -1,0 +1,52 @@
+
+
+.tabla{
+    position: absolute;
+    width: 500px;
+    margin: 0;
+    height: 500px;
+}
+
+.negyzet {
+    z-index: 10;
+    position:relative;
+}
+
+.negyzet-narancs{
+    float: left;
+	width: 62.5px;
+    height: 62.5px;
+    background-color: rgb(255, 172, 89);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    stroke: white;
+}
+
+.negyzet-piros{
+    float: left;
+	width: 62.5px;
+    height: 62.5px;
+    background-color: rgb(250, 77, 47);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    stroke: white;
+}
+
+.negyzet-kijeloles{ 
+    background-color: lightcyan;
+}
+.float-torles {
+    clear: both;
+}
+
+#kijon {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kinyer {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
